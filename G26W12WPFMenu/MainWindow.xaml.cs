@@ -9,6 +9,6 @@ public partial class MainWindow : Window
         InitializeComponent();
 
         // Model을 만들어 ViewModel에 주입 후 DataContext로 설정
-        DataContext = new MainViewModel(new MenuModel());
+        DataContext = new MainViewModel(new MenuModel()); 
     }
 }
